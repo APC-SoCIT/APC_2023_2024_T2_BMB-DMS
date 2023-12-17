@@ -222,8 +222,8 @@
             <label for="postalCode">Postal/ZIP Code:</label>
             <select id="postalCode" name="postalCode" required>
                 <!-- Add options for postal/ZIP codes -->
-                <option value="12345">12345</option>
-                <option value="67890">67890</option>
+                <option value="12345">1232</option> <!-- magallanes village -->
+                <option value="67890">xxxx</option> <!-- others? -->
                 <!-- Add more options as needed -->
             </select>
 
@@ -231,7 +231,13 @@
             <br>
     
             <label for="businessType">Business Type:</label>
-            <input type="text" id="businessType" name="businessType" required>
+            <select id="businessType" name="businessType" required>
+                <option value="" disabled selected>Choose business type...</option>
+                <option value="Service Business">Service Business</option>
+                <option value="Merchandising Business">Merchandising Business</option>
+                <option value="Manufacturing Business">Manufacturing Business</option>
+                <option value="Other Business">Other Business</option>
+            </select>
 
             <br>
             <br>
